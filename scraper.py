@@ -3,7 +3,7 @@ import lxml.html as html
 import os
 import datetime
 
-HOME_URL = 'https://www.prensalibre.com/'
+HOME_URL = ''
 
 XPATH_LINK_TO_ARTICLE = '//article[@class="story-xs story"]/div/a/@href'
 XPATH_TITLE = '//h1[@class="sart-title"]/text()'
