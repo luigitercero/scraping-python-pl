@@ -1,0 +1,6 @@
+links = //article[@class="story-xs story"]/div/a/@href
+title = //h1[@class="sart-title"]/text()
+heder = //header[@class="sart-header sart-header-wide gi one-whole"]/div[@class="sart-intro"]/p/text()
+author = //div[@class="auth-info gi ten-sixteenths"]/p/span/span/text()
+date = //div[@class="auth-info gi ten-sixteenths"]/span/a/time/text()
+body = //div[@class="sart-content"]/p[not(@class)]/text()
